@@ -23,7 +23,7 @@ class Diesel1 extends AudiA3
     public $cc = 1968;
     public $price =" 35.200.00";
 }
-var_dump(Diesel1);
+var_dump(AudiA3);
 
 ?>
 

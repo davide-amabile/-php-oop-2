@@ -5,21 +5,20 @@ class AudiA3
     public $brand;
     public $name;
 
-    public function getCar($brand)
+    public function checkCar($brand)
     {
         if( $brand === "Audi"){
             $this->brand = "Audi";
-            $this->name = "A3"
+            $this->name = "A3";
         }
     }
+
 
 }
 
 // creare classe figlio
 class Diesel1 extends AudiA3
 {
-
-    public $brand = getCar("Audi");
     public $engine = "Diesel";
     public $cc = 1968;
     public $price =" 35.200.00";
